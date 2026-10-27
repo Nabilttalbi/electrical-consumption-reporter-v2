@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc *)",
+      "Bash(Remove-Item \"c:\\\\Users\\\\Msi\\\\Desktop\\\\electrical-consumption-reporter\\\\components\\\\DataInputForm.tsx\" -Force)",
+      "Bash(Remove-Item \"c:\\\\Users\\\\Msi\\\\Desktop\\\\electrical-consumption-reporter\\\\components\\\\GeminiAnalysis.tsx\" -Force)",
+      "Bash(Remove-Item \"c:\\\\Users\\\\Msi\\\\Desktop\\\\electrical-consumption-reporter\\\\services\\\\excelServiceExcelJS.ts\" -Force)",
+      "Bash(Write-Host \"Done\")",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)"
+    ]
+  }
+}
